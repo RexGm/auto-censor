@@ -1,0 +1,9 @@
+# bytetrack.yaml
+tracker_type: bytetrack        # tracker türü, ['botsort', 'bytetrack']
+track_high_thresh: 0.25        # ilk eşleştirme eşiği
+track_low_thresh: 0.05         # ikinci eşleştirme eşiği
+new_track_thresh: 0.25         # yeni bir track başlatma eşiği
+track_buffer: 90               # track’in “yaşatılacağı” frame sayısı
+match_thresh: 0.5              # track–detection eşleştirme IoU eşiği
+fuse_score: True               # eşleştirme öncesi skorları IoU mesafesi ile birleştir
+# min_box_area: 10             # (opsiyonel, kullanılmıyor)

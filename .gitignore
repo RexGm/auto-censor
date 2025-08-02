@@ -1,0 +1,5 @@
+autoCensor.Api/__pycache__/
+autoCensor.Api/license-plate-data/
+autoCensor.Api/models/
+autoCensor.Api/runs/
+autoCensor.Api/videos/
